@@ -27,3 +27,7 @@ img.perro4 {
     width: 90%;
     grid-area: perro4;
 }
+img {
+    display: block;
+    margin: 20px auto;
+}
