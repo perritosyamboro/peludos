@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.content-main {
+    margin: 20px;
+    grid-template: "perro1" auto
+                    "perro1" auto
+                    "perro1" auto
+                    "perro1" auto /
+                    1fr; 
+}
+img.perro1 {
+    width: 100%;
+    grid-area: perro1;
+}
+img.perro2 {
+    width: 100%;
+    grid-area: perro2;
+}
+img.perro3 {
+    width: 90%;
+    grid-area: perro3;
+}
+img.perro4 {
+    width: 90%;
+    grid-area: perro4;
+}
