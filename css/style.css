@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: 0;
 }
+h1 {
+    text-align: center;
+}
 .content-main {
     margin: 20px;
     grid-template: "perro1" auto
